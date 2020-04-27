@@ -149,6 +149,33 @@ LB2_1/main.cpp.s:
 	$(MAKE) -f CMakeFiles\S2LB2_1.dir\build.make CMakeFiles/S2LB2_1.dir/LB2_1/main.cpp.s
 .PHONY : LB2_1/main.cpp.s
 
+LB2_2/Equation.obj: LB2_2/Equation.cpp.obj
+
+.PHONY : LB2_2/Equation.obj
+
+# target to build an object file
+LB2_2/Equation.cpp.obj:
+	$(MAKE) -f CMakeFiles\S2LB2_1.dir\build.make CMakeFiles/S2LB2_1.dir/LB2_2/Equation.cpp.obj
+.PHONY : LB2_2/Equation.cpp.obj
+
+LB2_2/Equation.i: LB2_2/Equation.cpp.i
+
+.PHONY : LB2_2/Equation.i
+
+# target to preprocess a source file
+LB2_2/Equation.cpp.i:
+	$(MAKE) -f CMakeFiles\S2LB2_1.dir\build.make CMakeFiles/S2LB2_1.dir/LB2_2/Equation.cpp.i
+.PHONY : LB2_2/Equation.cpp.i
+
+LB2_2/Equation.s: LB2_2/Equation.cpp.s
+
+.PHONY : LB2_2/Equation.s
+
+# target to generate assembly for a file
+LB2_2/Equation.cpp.s:
+	$(MAKE) -f CMakeFiles\S2LB2_1.dir\build.make CMakeFiles/S2LB2_1.dir/LB2_2/Equation.cpp.s
+.PHONY : LB2_2/Equation.cpp.s
+
 LB2_2/main.obj: LB2_2/main.cpp.obj
 
 .PHONY : LB2_2/main.obj
@@ -176,6 +203,33 @@ LB2_2/main.cpp.s:
 	$(MAKE) -f CMakeFiles\S2LB2_1.dir\build.make CMakeFiles/S2LB2_1.dir/LB2_2/main.cpp.s
 .PHONY : LB2_2/main.cpp.s
 
+LB2_3/main.obj: LB2_3/main.cpp.obj
+
+.PHONY : LB2_3/main.obj
+
+# target to build an object file
+LB2_3/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\S2LB2_1.dir\build.make CMakeFiles/S2LB2_1.dir/LB2_3/main.cpp.obj
+.PHONY : LB2_3/main.cpp.obj
+
+LB2_3/main.i: LB2_3/main.cpp.i
+
+.PHONY : LB2_3/main.i
+
+# target to preprocess a source file
+LB2_3/main.cpp.i:
+	$(MAKE) -f CMakeFiles\S2LB2_1.dir\build.make CMakeFiles/S2LB2_1.dir/LB2_3/main.cpp.i
+.PHONY : LB2_3/main.cpp.i
+
+LB2_3/main.s: LB2_3/main.cpp.s
+
+.PHONY : LB2_3/main.s
+
+# target to generate assembly for a file
+LB2_3/main.cpp.s:
+	$(MAKE) -f CMakeFiles\S2LB2_1.dir\build.make CMakeFiles/S2LB2_1.dir/LB2_3/main.cpp.s
+.PHONY : LB2_3/main.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -188,9 +242,15 @@ help:
 	@echo ... LB2_1/main.obj
 	@echo ... LB2_1/main.i
 	@echo ... LB2_1/main.s
+	@echo ... LB2_2/Equation.obj
+	@echo ... LB2_2/Equation.i
+	@echo ... LB2_2/Equation.s
 	@echo ... LB2_2/main.obj
 	@echo ... LB2_2/main.i
 	@echo ... LB2_2/main.s
+	@echo ... LB2_3/main.obj
+	@echo ... LB2_3/main.i
+	@echo ... LB2_3/main.s
 .PHONY : help
 
 

@@ -4,10 +4,12 @@
 
 #ifndef S2LB2_1_QUADRATICEQUATION_H
 #define S2LB2_1_QUADRATICEQUATION_H
+#include "Equation.h"
 
-
-class QuadraticEquation {
-
+class QuadraticEquation: public Equation {
+    double fun(double x){
+        return x*x;
+    }
 };
 
 

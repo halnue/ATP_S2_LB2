@@ -11,5 +11,17 @@ CMakeFiles/S2LB2_1.dir/LB2_1/main.cpp.obj: ../LB2_1/Student.cpp
 CMakeFiles/S2LB2_1.dir/LB2_1/main.cpp.obj: ../LB2_1/Student.h
 CMakeFiles/S2LB2_1.dir/LB2_1/main.cpp.obj: ../LB2_1/main.cpp
 
+CMakeFiles/S2LB2_1.dir/LB2_2/Equation.cpp.obj: ../LB2_2/Equation.cpp
+CMakeFiles/S2LB2_1.dir/LB2_2/Equation.cpp.obj: ../LB2_2/Equation.h
+
+CMakeFiles/S2LB2_1.dir/LB2_2/main.cpp.obj: ../LB2_2/Equation.h
+CMakeFiles/S2LB2_1.dir/LB2_2/main.cpp.obj: ../LB2_2/QuadraticEquation.h
 CMakeFiles/S2LB2_1.dir/LB2_2/main.cpp.obj: ../LB2_2/main.cpp
+
+CMakeFiles/S2LB2_1.dir/LB2_3/main.cpp.obj: ../LB2_3/IncompatibleMatrices.h
+CMakeFiles/S2LB2_1.dir/LB2_3/main.cpp.obj: ../LB2_3/List.cpp
+CMakeFiles/S2LB2_1.dir/LB2_3/main.cpp.obj: ../LB2_3/Matrix.cpp
+CMakeFiles/S2LB2_1.dir/LB2_3/main.cpp.obj: ../LB2_3/Matrix.h
+CMakeFiles/S2LB2_1.dir/LB2_3/main.cpp.obj: ../LB2_3/NullPointErexception.h
+CMakeFiles/S2LB2_1.dir/LB2_3/main.cpp.obj: ../LB2_3/main.cpp
 

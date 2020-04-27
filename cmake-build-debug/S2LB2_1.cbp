@@ -83,7 +83,19 @@
 		<Unit filename="C:/Users/Michael/CLionProjects/S2LB2_1/LB2_1/main.cpp">
 			<Option target="S2LB2_1"/>
 		</Unit>
+		<Unit filename="C:/Users/Michael/CLionProjects/S2LB2_1/LB2_2/Equation.cpp">
+			<Option target="S2LB2_1"/>
+		</Unit>
+		<Unit filename="C:/Users/Michael/CLionProjects/S2LB2_1/LB2_2/Equation.h">
+			<Option target="S2LB2_1"/>
+		</Unit>
+		<Unit filename="C:/Users/Michael/CLionProjects/S2LB2_1/LB2_2/QuadraticEquation.h">
+			<Option target="S2LB2_1"/>
+		</Unit>
 		<Unit filename="C:/Users/Michael/CLionProjects/S2LB2_1/LB2_2/main.cpp">
+			<Option target="S2LB2_1"/>
+		</Unit>
+		<Unit filename="C:/Users/Michael/CLionProjects/S2LB2_1/LB2_3/main.cpp">
 			<Option target="S2LB2_1"/>
 		</Unit>
 		<Unit filename="C:/Users/Michael/CLionProjects/S2LB2_1/CMakeLists.txt">

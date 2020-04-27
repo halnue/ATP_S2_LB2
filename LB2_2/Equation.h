@@ -8,6 +8,10 @@
 
 class Equation {
 
+    virtual double fun(double x);
+
+public:
+    double getMinRoot(double a, double b, double eps);
 };
 
 
