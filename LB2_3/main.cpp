@@ -9,17 +9,17 @@
 
 int main() {
 
-    List<List<int>> list1 = List<List<int>>();
-    list1.add(List<int>(2, new int[2]{0, 2}));
-    list1.add(List<int>(2, new int[2]{7, 4}));
+    List<List<double>> list1 = List<List<double>>();
+    list1.add(List<double>(2, new double[2]{0.6, 2.3}));
+    list1.add(List<double>(2, new double[2]{7.6, 4.7}));
 
-    List<List<int>> list2 = List<List<int>>();
-    list2.add(List<int>(2, new int[2]{8, 1}));
-    list2.add(List<int>(2, new int[2]{8, 5}));
+    List<List<double>> list2 = List<List<double>>();
+    list2.add(List<double>(2, new double[2]{8.5, 1.5}));
+    list2.add(List<double>(2, new double[2]{8.9, 5.5}));
 
     Matrix matrix1 = Matrix(list1);
     Matrix matrix2 = Matrix(list2);
-
+    PRINT_MATRIX(matrix1[0][0])
     PRINT_MATRIX(matrix1)
     PRINT_MATRIX(&matrix2)
     Matrix matrix3 = changeNum(matrix1);

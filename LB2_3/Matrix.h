@@ -10,21 +10,23 @@
 #include "List.cpp"
 #include "IncompatibleMatrices.h"
 #include "NullPointErexception.h"
-template <typename T> class Matrix {
+
+template<typename T>
+class Matrix {
 
 private:
     List<List<T>> list = List<List<T>>();
     int width, height;
 public:
 
-    Matrix():Matrix(1, 1) {}
+    Matrix() : Matrix(1, 1) {}
 
-    Matrix(const Matrix &m){
+    Matrix(const Matrix &m) {
         List list = createArray(m.getWidth(), m.getHeight(), 1);
 
         for (int i = 0; i < m.getWidth(); ++i) {
             for (int j = 0; j < m.getHeight(); ++j) {
-                list[i][j] =  m.get(i, j);
+                list[i][j] = m.get(i, j);
             }
         }
         this->list = list;
@@ -34,7 +36,7 @@ public:
 
     Matrix(int width, int height);
 
-    Matrix(int width, int height, int defaultValue){
+    Matrix(int width, int height, T defaultValue) {
         List list = createArray(width, height, defaultValue);
         this->list = list;
         this->height = height;
@@ -47,13 +49,13 @@ public:
         this->height = array.get(0).size();
     }
 
-    virtual ~Matrix(){
+    virtual ~Matrix() {
 
         width = 0;
         height = 0;
     }
 
-    friend std::ostream &operator<<(std::ostream &os, Matrix *matrix){
+    friend std::ostream &operator<<(std::ostream &os, Matrix *matrix) {
 //        todo("fix the conclusion")
         for (int i = 0; i < matrix->getWidth(); i++) {
             os << "| ";
@@ -65,7 +67,7 @@ public:
         return os;
     }
 
-    friend std::ostream &operator<<(std::ostream &os, const Matrix &matrix){
+    friend std::ostream &operator<<(std::ostream &os, const Matrix &matrix) {
 //    todo("fix the conclusion")
         for (int i = 0; i < matrix.getWidth(); i++) {
             os << "| ";
@@ -77,7 +79,7 @@ public:
         return os;
     }
 
-    friend std::istream &operator>>(std::istream &is, Matrix matrix){
+    friend std::istream &operator>>(std::istream &is, Matrix matrix) {
         for (int j = 0; j < matrix.getWidth(); ++j) {
             for (int i = 0; i < matrix.getHeight(); ++i) {
                 int num;
@@ -88,7 +90,7 @@ public:
         return is;
     }
 
-    List<T> &operator[](int i){
+    List<T> &operator[](int i) {
         if (width > i)
             return list[i];
         else
@@ -101,35 +103,35 @@ public:
         return m1.plus(m2);
     }
 
-    friend Matrix operator-(Matrix m1, Matrix m2){
+    friend Matrix operator-(Matrix m1, Matrix m2) {
 //    Matrix result = Matrix(m1.getWidth(), m1.getHeight(), 1);
 
         return m1.subtraction(m2);
     }
 
-    friend Matrix operator*(Matrix m1, Matrix m2){
+    friend Matrix operator*(Matrix m1, Matrix m2) {
         return m1.multiply(m2);
     }
 
 //    friend  Matrix operator=(const Matrix &m)
-    int get(int width, int height) const{
+    T get(int width, int height) const {
         if (width > getWidth() && height > getHeight())
             throw NullPointErexception();
         return list.get(width).get(height);
     }
 
-    void set(int width, int height, int value){
+    void set(int width, int height, T value) {
         list[width][height] = value;
     }
 
-    Matrix plus(Matrix matrix){
+    Matrix<T> plus(Matrix matrix) {
         if (this->getWidth() != matrix.getWidth() && this->getHeight() != matrix.getHeight())
             throw IncompatibleMatrices();
         else {
-            Matrix matrixResult = Matrix(width, height, 1);
+            Matrix<T> matrixResult = Matrix<T>(width, height, (T)1);
             for (int i = 0; i < matrix.getWidth(); ++i) {
                 for (int j = 0; j < matrix.getHeight(); ++j) {
-                    int r = get(i, j) + matrix.get(i, j);
+                    T r = get(i, j) + matrix.get(i, j);
                     matrixResult.set(i, j, r);
                 }
             }
@@ -151,16 +153,16 @@ public:
         }
     }
 
-    const Matrix multiply(Matrix matrix){
+    const Matrix multiply(Matrix matrix) {
         if (this->getHeight() != matrix.getWidth())
             throw IncompatibleMatrices();
         else {
             Matrix result = Matrix(width, matrix.getHeight(), 1);
             for (int x = 0; x < matrix.getWidth(); ++x) {
                 for (int y = 0; y < matrix.getHeight(); ++y) {
-                    List<int> m2 = matrix.getLineWidth(y);
-                    List<int> m1 = getLineHeight(x);
-                    int r = multiplyLines(m1, m2);
+                    List<T> m2 = matrix.getLineWidth(y);
+                    List<T> m1 = getLineHeight(x);
+                    T r = multiplyLines(m1, m2);
                     result.set(x, y, r);
                 }
             }
@@ -168,7 +170,7 @@ public:
         }
     }
 
-    Matrix multiply(int value){
+    Matrix multiply(int value) {
         Matrix matrixResult = Matrix(width, height, 1);
         for (int x = 0; x < matrixResult.getWidth(); ++x) {
             for (int y = 0; y < matrixResult.getHeight(); ++y) {
@@ -178,23 +180,23 @@ public:
         return matrixResult;
     }
 
-    int getWidth() const{
+    int getWidth() const {
         return width;
     }
 
-    int getHeight() const{
+    int getHeight() const {
         return height;
     }
 
 
-    friend Matrix changeNum(Matrix m){
+    friend Matrix changeNum(Matrix m) {
         int w = m.getWidth();
         int h = m.getHeight();
-        List<List<int>> l = List<List<int>>();
+        List<List<T>> l = List<List<T>>();
         for (int x = 0; x < w; ++x) {
-            List<int> listInt = List<int>();
+            List<T> listInt = List<T>();
             for (int y = 0; y < h; ++y) {
-                int num = m.get(x, y);
+                T num = m.get(x, y);
                 if (num == 0)
                     listInt.add(1);
                 else
@@ -208,31 +210,31 @@ public:
 
 private:
 
-    int multiplyLines(List<T> line1, List<T> line2){
-        int result = 0;
+    T multiplyLines(List<T> line1, List<T> line2) {
+        T result = 0;
         for (int i = 0; i < line1.size(); ++i) {
-            int sum = line1[i] * line2[i];
+            T sum = line1[i] * line2[i];
             result += sum;
         }
         return result;
     }
 
-    List<T> getLineHeight(int width){
+    List<T> getLineHeight(int width) {
         return list[width];
     }
 
-    List<T> getLineWidth(int height){
-        List<int> listResult = List<int>();
+    List<T> getLineWidth(int height) {
+        List<T> listResult = List<T>();
         for (int j = 0; j < getHeight(); ++j) {
             listResult.add(get(j, height));
         }
         return listResult;
     }
 
-    List<List<T>> createArray(int width, int height, int defaultValue) const{
-        List<List<int>> list = List<List<int>>();
+    List<List<T>> createArray(int width, int height, int defaultValue) const {
+        List<List<T>> list = List<List<T>>();
         for (int i = 0; i < width; ++i) {
-            List<int> list1 = List<int>();
+            List<T> list1 = List<T>();
             for (int j = 0; j < height; ++j) {
 //            list1.set(j,defaultValue);
                 list1.add(defaultValue);
