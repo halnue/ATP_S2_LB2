@@ -6,39 +6,31 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Michael/CLionProjects/S2LB2_1/LB2_3/IncompatibleMatrices.h
-
-C:/Users/Michael/CLionProjects/S2LB2_1/LB2_3/List.cpp
-NullPointErexception.h
-C:/Users/Michael/CLionProjects/S2LB2_1/LB2_3/NullPointErexception.h
-
-C:/Users/Michael/CLionProjects/S2LB2_1/LB2_3/Matrix.cpp
-Matrix.h
-C:/Users/Michael/CLionProjects/S2LB2_1/LB2_3/Matrix.h
-IncompatibleMatrices.h
-C:/Users/Michael/CLionProjects/S2LB2_1/LB2_3/IncompatibleMatrices.h
-NullPointErexception.h
-C:/Users/Michael/CLionProjects/S2LB2_1/LB2_3/NullPointErexception.h
-
-C:/Users/Michael/CLionProjects/S2LB2_1/LB2_3/Matrix.h
+C:/ATP/ATP_S2_LB2_1/LB2_1/Grosser.h
 ostream
 -
-List.cpp
-C:/Users/Michael/CLionProjects/S2LB2_1/LB2_3/List.cpp
-IncompatibleMatrices.h
-C:/Users/Michael/CLionProjects/S2LB2_1/LB2_3/IncompatibleMatrices.h
-NullPointErexception.h
-C:/Users/Michael/CLionProjects/S2LB2_1/LB2_3/NullPointErexception.h
+Human.h
+C:/ATP/ATP_S2_LB2_1/LB2_1/Human.h
 
-C:/Users/Michael/CLionProjects/S2LB2_1/LB2_3/NullPointErexception.h
-iostream
+C:/ATP/ATP_S2_LB2_1/LB2_1/Human.h
+ostream
 -
 
-C:/Users/Michael/CLionProjects/S2LB2_1/LB2_3/main.cpp
+C:/ATP/ATP_S2_LB2_1/LB2_1/Sprobotnik.h
+ostream
+-
+
+C:/ATP/ATP_S2_LB2_1/LB2_1/Student.h
+ostream
+-
+
+C:/ATP/ATP_S2_LB2_1/LB2_1/main.cpp
 iostream
 -
-Matrix.h
-C:/Users/Michael/CLionProjects/S2LB2_1/LB2_3/Matrix.h
-Matrix.cpp
-C:/Users/Michael/CLionProjects/S2LB2_1/LB2_3/Matrix.cpp
+Grosser.h
+C:/ATP/ATP_S2_LB2_1/LB2_1/Grosser.h
+Sprobotnik.h
+C:/ATP/ATP_S2_LB2_1/LB2_1/Sprobotnik.h
+Student.h
+C:/ATP/ATP_S2_LB2_1/LB2_1/Student.h
 

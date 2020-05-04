@@ -11,7 +11,10 @@
 class Human {
 public:
     std::string value = "Human";
-    virtual void show();
+    virtual void show(){
+        std::cout << value << std::endl;
+
+    }
 };
 
 

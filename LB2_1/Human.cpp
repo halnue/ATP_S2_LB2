@@ -4,8 +4,6 @@
 
 #include "Human.h"
 
-
-
 void Human::show() {
-std::cout << value << std::endl;
+    std::cout << value << std::endl;
 }

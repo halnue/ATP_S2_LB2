@@ -10,21 +10,21 @@
 //    Matrix(height, width, 1);
 //}
 
-//Matrix::Matrix(List<List<int>> array) {
+//Matrix::Matrix(ArrayList<ArrayList<int>> array) {
 //    list = arrayInt;
 //    this->width = array.siz;
 //    this->height = height;
 //}
 
 //Matrix::Matrix(int width, int height, int defaultValue) {
-//    List list = createArray(width, height, defaultValue);
+//    ArrayList list = createArray(width, height, defaultValue);
 //    this->list = list;
 //    this->height = height;
 //    this->width = width;
 //}
 
-//List Matrix::createArray(int width, int height, int defaultValue) const {
-//    List list = List();
+//ArrayList Matrix::createArray(int width, int height, int defaultValue) const {
+//    ArrayList list = ArrayList();
 //    for (int i = 0; i < width; ++i) {
 //        ListInt list1 = ListInt();
 //        for (int j = 0; j < height; ++j) {
@@ -190,7 +190,7 @@
 //Matrix changeNum(Matrix m) {
 //    int w = m.getWidth();
 //    int h = m.getHeight();
-//    List l = List();
+//    ArrayList l = ArrayList();
 //    for (int x = 0; x < w; ++x) {
 //        ListInt listInt = ListInt();
 //        for (int y = 0; y < h; ++y) {
@@ -207,7 +207,7 @@
 //}
 
 //Matrix::Matrix(const Matrix &m) {
-//    List list = createArray(m.getWidth(), m.getHeight(), 1);
+//    ArrayList list = createArray(m.getWidth(), m.getHeight(), 1);
 //
 //    for (int i = 0; i < m.getWidth(); ++i) {
 //        for (int j = 0; j < m.getHeight(); ++j) {

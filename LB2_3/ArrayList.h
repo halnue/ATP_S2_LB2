@@ -1,9 +1,9 @@
 //
-// Created by Michael on 14.02.2020.
+// Created by Michael on 02.05.2020.
 //
 
-#ifndef S2LB1_2_LISTINT_CPP
-#define S2LB1_2_LISTINT_CPP
+#ifndef S2LB2_1_ARRAYLIST_H
+#define S2LB2_1_ARRAYLIST_H
 
 #include "NullPointErexception.h"
 
@@ -43,16 +43,6 @@ public:
         length = 0;
         for (int i = 0; i < size; ++i) {
             add(arrayInt[i]);
-        }
-    }
-
-    ArrayList(int width,int height, ArrayList<T> *arrayInt) {
-        int maxSize = width * 2;
-        array = new ArrayList<T>[maxSize];
-        maxLength = maxSize;
-        length = 0;
-        for (int i = 0; i < width; ++i) {
-            add(ArrayList<T>(height,arrayInt[i]));
         }
     }
 
@@ -107,5 +97,4 @@ public:
 
 };
 
-
-#endif //S2LB1_2_LISTINT_CPP
+#endif //S2LB2_1_ARRAYLIST_H

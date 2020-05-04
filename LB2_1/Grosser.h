@@ -12,7 +12,10 @@
 class Grosser: public Human {
 public:
     std::string value = "Grosser";
-    virtual void show();
+    virtual void show(){
+        std::cout << value << std::endl;
+
+    }
 };
 
 

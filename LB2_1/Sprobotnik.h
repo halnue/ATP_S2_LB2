@@ -11,7 +11,10 @@
 class Sprobotnik: public Grosser {
 public:
     std::string value = "Sprobotnik";
-    virtual void show();
+    virtual void show(){
+        std::cout << value << std::endl;
+
+    }
 };
 
 

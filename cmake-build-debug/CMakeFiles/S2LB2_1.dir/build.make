@@ -42,10 +42,10 @@ RM = "C:\Users\Michael\AppData\Local\JetBrains\CLion 2020.1\bin\cmake\win\bin\cm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Michael\CLionProjects\S2LB2_1
+CMAKE_SOURCE_DIR = C:\ATP\ATP_S2_LB2_1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Michael\CLionProjects\S2LB2_1\cmake-build-debug
+CMAKE_BINARY_DIR = C:\ATP\ATP_S2_LB2_1\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/S2LB2_1.dir/depend.make
@@ -58,55 +58,55 @@ include CMakeFiles/S2LB2_1.dir/flags.make
 
 CMakeFiles/S2LB2_1.dir/LB2_1/main.cpp.obj: CMakeFiles/S2LB2_1.dir/flags.make
 CMakeFiles/S2LB2_1.dir/LB2_1/main.cpp.obj: ../LB2_1/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Michael\CLionProjects\S2LB2_1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/S2LB2_1.dir/LB2_1/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\S2LB2_1.dir\LB2_1\main.cpp.obj -c C:\Users\Michael\CLionProjects\S2LB2_1\LB2_1\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\ATP\ATP_S2_LB2_1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/S2LB2_1.dir/LB2_1/main.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\S2LB2_1.dir\LB2_1\main.cpp.obj -c C:\ATP\ATP_S2_LB2_1\LB2_1\main.cpp
 
 CMakeFiles/S2LB2_1.dir/LB2_1/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/S2LB2_1.dir/LB2_1/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Michael\CLionProjects\S2LB2_1\LB2_1\main.cpp > CMakeFiles\S2LB2_1.dir\LB2_1\main.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\ATP\ATP_S2_LB2_1\LB2_1\main.cpp > CMakeFiles\S2LB2_1.dir\LB2_1\main.cpp.i
 
 CMakeFiles/S2LB2_1.dir/LB2_1/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/S2LB2_1.dir/LB2_1/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Michael\CLionProjects\S2LB2_1\LB2_1\main.cpp -o CMakeFiles\S2LB2_1.dir\LB2_1\main.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\ATP\ATP_S2_LB2_1\LB2_1\main.cpp -o CMakeFiles\S2LB2_1.dir\LB2_1\main.cpp.s
 
 CMakeFiles/S2LB2_1.dir/LB2_2/main.cpp.obj: CMakeFiles/S2LB2_1.dir/flags.make
 CMakeFiles/S2LB2_1.dir/LB2_2/main.cpp.obj: ../LB2_2/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Michael\CLionProjects\S2LB2_1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/S2LB2_1.dir/LB2_2/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\S2LB2_1.dir\LB2_2\main.cpp.obj -c C:\Users\Michael\CLionProjects\S2LB2_1\LB2_2\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\ATP\ATP_S2_LB2_1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/S2LB2_1.dir/LB2_2/main.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\S2LB2_1.dir\LB2_2\main.cpp.obj -c C:\ATP\ATP_S2_LB2_1\LB2_2\main.cpp
 
 CMakeFiles/S2LB2_1.dir/LB2_2/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/S2LB2_1.dir/LB2_2/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Michael\CLionProjects\S2LB2_1\LB2_2\main.cpp > CMakeFiles\S2LB2_1.dir\LB2_2\main.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\ATP\ATP_S2_LB2_1\LB2_2\main.cpp > CMakeFiles\S2LB2_1.dir\LB2_2\main.cpp.i
 
 CMakeFiles/S2LB2_1.dir/LB2_2/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/S2LB2_1.dir/LB2_2/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Michael\CLionProjects\S2LB2_1\LB2_2\main.cpp -o CMakeFiles\S2LB2_1.dir\LB2_2\main.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\ATP\ATP_S2_LB2_1\LB2_2\main.cpp -o CMakeFiles\S2LB2_1.dir\LB2_2\main.cpp.s
 
 CMakeFiles/S2LB2_1.dir/LB2_2/Equation.cpp.obj: CMakeFiles/S2LB2_1.dir/flags.make
 CMakeFiles/S2LB2_1.dir/LB2_2/Equation.cpp.obj: ../LB2_2/Equation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Michael\CLionProjects\S2LB2_1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/S2LB2_1.dir/LB2_2/Equation.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\S2LB2_1.dir\LB2_2\Equation.cpp.obj -c C:\Users\Michael\CLionProjects\S2LB2_1\LB2_2\Equation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\ATP\ATP_S2_LB2_1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/S2LB2_1.dir/LB2_2/Equation.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\S2LB2_1.dir\LB2_2\Equation.cpp.obj -c C:\ATP\ATP_S2_LB2_1\LB2_2\Equation.cpp
 
 CMakeFiles/S2LB2_1.dir/LB2_2/Equation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/S2LB2_1.dir/LB2_2/Equation.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Michael\CLionProjects\S2LB2_1\LB2_2\Equation.cpp > CMakeFiles\S2LB2_1.dir\LB2_2\Equation.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\ATP\ATP_S2_LB2_1\LB2_2\Equation.cpp > CMakeFiles\S2LB2_1.dir\LB2_2\Equation.cpp.i
 
 CMakeFiles/S2LB2_1.dir/LB2_2/Equation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/S2LB2_1.dir/LB2_2/Equation.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Michael\CLionProjects\S2LB2_1\LB2_2\Equation.cpp -o CMakeFiles\S2LB2_1.dir\LB2_2\Equation.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\ATP\ATP_S2_LB2_1\LB2_2\Equation.cpp -o CMakeFiles\S2LB2_1.dir\LB2_2\Equation.cpp.s
 
 CMakeFiles/S2LB2_1.dir/LB2_3/main.cpp.obj: CMakeFiles/S2LB2_1.dir/flags.make
 CMakeFiles/S2LB2_1.dir/LB2_3/main.cpp.obj: ../LB2_3/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Michael\CLionProjects\S2LB2_1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/S2LB2_1.dir/LB2_3/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\S2LB2_1.dir\LB2_3\main.cpp.obj -c C:\Users\Michael\CLionProjects\S2LB2_1\LB2_3\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\ATP\ATP_S2_LB2_1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/S2LB2_1.dir/LB2_3/main.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\S2LB2_1.dir\LB2_3\main.cpp.obj -c C:\ATP\ATP_S2_LB2_1\LB2_3\main.cpp
 
 CMakeFiles/S2LB2_1.dir/LB2_3/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/S2LB2_1.dir/LB2_3/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Michael\CLionProjects\S2LB2_1\LB2_3\main.cpp > CMakeFiles\S2LB2_1.dir\LB2_3\main.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\ATP\ATP_S2_LB2_1\LB2_3\main.cpp > CMakeFiles\S2LB2_1.dir\LB2_3\main.cpp.i
 
 CMakeFiles/S2LB2_1.dir/LB2_3/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/S2LB2_1.dir/LB2_3/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Michael\CLionProjects\S2LB2_1\LB2_3\main.cpp -o CMakeFiles\S2LB2_1.dir\LB2_3\main.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\ATP\ATP_S2_LB2_1\LB2_3\main.cpp -o CMakeFiles\S2LB2_1.dir\LB2_3\main.cpp.s
 
 # Object files for target S2LB2_1
 S2LB2_1_OBJECTS = \
@@ -126,7 +126,7 @@ S2LB2_1.exe: CMakeFiles/S2LB2_1.dir/build.make
 S2LB2_1.exe: CMakeFiles/S2LB2_1.dir/linklibs.rsp
 S2LB2_1.exe: CMakeFiles/S2LB2_1.dir/objects1.rsp
 S2LB2_1.exe: CMakeFiles/S2LB2_1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Michael\CLionProjects\S2LB2_1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable S2LB2_1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\ATP\ATP_S2_LB2_1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable S2LB2_1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\S2LB2_1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -139,6 +139,6 @@ CMakeFiles/S2LB2_1.dir/clean:
 .PHONY : CMakeFiles/S2LB2_1.dir/clean
 
 CMakeFiles/S2LB2_1.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Michael\CLionProjects\S2LB2_1 C:\Users\Michael\CLionProjects\S2LB2_1 C:\Users\Michael\CLionProjects\S2LB2_1\cmake-build-debug C:\Users\Michael\CLionProjects\S2LB2_1\cmake-build-debug C:\Users\Michael\CLionProjects\S2LB2_1\cmake-build-debug\CMakeFiles\S2LB2_1.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\ATP\ATP_S2_LB2_1 C:\ATP\ATP_S2_LB2_1 C:\ATP\ATP_S2_LB2_1\cmake-build-debug C:\ATP\ATP_S2_LB2_1\cmake-build-debug C:\ATP\ATP_S2_LB2_1\cmake-build-debug\CMakeFiles\S2LB2_1.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/S2LB2_1.dir/depend
 

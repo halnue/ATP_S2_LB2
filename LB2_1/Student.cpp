@@ -4,7 +4,7 @@
 
 #include "Student.h"
 
-void Student::show() {
-    std::cout << value << std::endl;
-
-}
+//void Student::show() {
+//    std::cout << value << std::endl;
+//
+//}

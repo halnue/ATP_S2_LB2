@@ -13,6 +13,7 @@ double Equation::getMinRoot( double a, double b, double eps) {
         if (tmp <= eps && tmp >= eps * -1) {
             min = tmp;
             result = x;
+            return result;
         }
         x += eps;
     }
